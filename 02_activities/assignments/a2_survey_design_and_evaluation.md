@@ -40,30 +40,33 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#3`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to understand how age realtes to music taste. 
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population: People of different ages who listen to popular music and can reflect on their music preferences over time. 
+Sampling frame: A general population sample with equal representation across different age groups.
+Sampling units: People who are recruited to complete the survey.
+Observational units: Age, questions regarding music taste and age-related preferences. 
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. What is your age?
+2. What is your favorite type of music?
+3. Did you prefer to listen to a different type music when you were younger? If so, what genre did you listen to and at what age?
+4. What device do you usually use to listen to music?
+5. How much do you like popular music?
+6. Do most of your peers and friends listen to popular music?
+7. How much social disapproval do you expect to receive if you listen to popular music?
+8. How often do you listen to music?
+9. Who's your favorite artist?
+10. To what extent do you think listening to popular music is appropriate for your age?
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +74,38 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: Probability sample with a stratified design. The sampling unit for the first phase (2021 Census of Population) is the household, while that of the second phase is the person.
+
+2. Sample size: 80,000 individuals (60,000 regular sample, 20,000 oversample)
+
+3. Target population: The target population for the 2023 SGVP is all persons 15 years of age and older in Canada, excluding residents of the Yukon, Northwest Territories, and Nunavut, full-time residents of institutions, and residents of First Nations reserves.
+
+4. Sampling frame: The frame for the 2023 SGVP was stratified by province and population groups. An oversample of population groups was selected along with the main sample. The domains of estimation consist of the provinces in addition to the population groups of interest.
+
+5. Survey mode(s): through an electronic questionnaire (EQ) or through CATI (computer assisted telephone interviewing). Respondents were interviewed in the official language of their choice. Proxy interviews were not permitted. The average time to complete the survey is estimated at 45 minutes.
+
+6. Timeline: 2023-09-15 to 2024-03-30
+
+7. Response rate: The overall response rate was 40.9% (42.2% for the regular sample and 37.1% for the oversample).
+
+8. Weights: bootstrap weights have been created for the purpose of design-based variance estimation. Estimates based on the survey data are also adjusted (by weighting) so that they are representative of the target population with regard to certain characteristics. 
+
+9. Data processing: The 2023 SGVP used the Social Survey Processing Environment (SSPE), a set of generalized processing steps and utilities, to allow subject matter and survey support staff to specify and run the processing of the survey in a timely fashion with high quality outputs. The SSPE is a structured environment that monitors the processing of data, ensuring best practices and harmonized business processes are followed.
+
+10. Cleaning, imputation, etc: Except in a few cases, all imputations were made using donor imputation. This method uses donor records selected through a score function to impute missing values. Mean imputation was used when donor imputation could not be used.
+
+Imputation was carried out in 4 blocks:
+
+1) imputation of personal income and family income;
+2) imputation of variables related to donations;
+3) imputation of the formal volunteering variables; and
+4) imputation of the informal volunteering variables.
+
+11. Sources of error: Sampling error, nonresponse bias, coverage error.
+
+12. Limitations, known biases, etc: Persons without good contact information represent a part of the target population that was excluded from the surveyed population. 
+
+13. Link to documentation and any additional sources used: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=4430
 ```
 
 ## Rubric
@@ -93,9 +127,9 @@ write your answer here
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] Create a branch called `assignment-2`.
-- [ ] Ensure that the repository is public.
-- [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
-- [ ] Verify that the link is accessible in a private browser window.
+- [x ] Create a branch called `assignment-2`.
+- [ x] Ensure that the repository is public.
+- [ x] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
+- [ x] Verify that the link is accessible in a private browser window.
 
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via the help channel in Slack. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
